@@ -19,7 +19,7 @@ jobs:
       - name: Compile pack
         uses: ComunidadAylas/PackSquash-action@v3.0.0
         with:
-          path: 'pack/'
+          path: 'pack'
           artifact_name: 's6pack.zip'
         
       - name: Upload artifact
