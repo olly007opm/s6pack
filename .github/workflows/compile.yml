@@ -1,0 +1,48 @@
+name: Compile Pack
+
+on:
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'The version of the pack'
+        required: true 
+        type: string
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Compile pack
+        uses: ComunidadAylas/PackSquash-action@v3.0.0
+        with:
+          path: 'pack/'
+          artifact_name: 's6pack.zip'
+        
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: s6pack.zip
+          
+          
+      - if: ${{ github.event.inputs.version != '' }}
+        name: Release artifact (with given version)
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: 's6pack.zip'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.event.inputs.version }}
+
+
+      - if: ${{ github.event.inputs.version == '' }}
+        name: Release artifact (with PR name as version)
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: 's6pack.zip'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.event.pull_request.title }}
+          
+      
