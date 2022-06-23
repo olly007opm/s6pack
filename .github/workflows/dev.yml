@@ -22,3 +22,7 @@ jobs:
       - if: ${{ github.event.inputs.version != "" }}
         name: Check if version is empty string
         run: echo version is empty string
+        
+      - if: ${{ github.event.inputs.version }}
+        name: Check if version is empty string
+        run: echo version exists
