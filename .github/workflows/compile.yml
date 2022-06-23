@@ -23,11 +23,15 @@ jobs:
         with:
           path: 'pack'
           artifact_name: 's6pack.zip'
+#           zip_spec_conformance_level: disregard
+#           size_increasing_zip_obfuscation: true
+          
         
       - name: Upload artifact
         uses: actions/upload-artifact@v3.1.0
         with:
           name: s6pack.zip
+          path: s6pack.zip
           
           
       - if: ${{ github.event.inputs.version != '' }}
