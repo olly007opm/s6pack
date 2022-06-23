@@ -26,7 +26,7 @@ jobs:
 #           size_increasing_zip_obfuscation: true
       
       - name: Rename artifact
-        run: mv /home/runner/work/_temp/packsquash/pack.zip /home/runner/work/_temp/packsquash/s6pack.zip
+        run: mv /home/runner/work/_temp/packsquash/pack.zip /home/runner/work/_temp/packsquash/s6pack-${{ github.event.inputs.version }}.zip
       
       - name: Upload artifact
         uses: actions/upload-artifact@v3.1.0
@@ -39,19 +39,16 @@ jobs:
         name: Release artifact (with given version)
         uses: ncipollo/release-action@v1
         with:
-          artifacts: /home/runner/work/_temp/packsquash/s6pack.zip
+          artifacts: /home/runner/work/_temp/packsquash/s6pack-${{ github.event.inputs.version }}.zip
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.event.inputs.version }}
-          body: "Hash: `${{ hashFiles('/home/runner/work/_temp/packsquash/s6pack.zip') }}`"
-
 
       - if: ${{ github.event.inputs.version == '' }}
         name: Release artifact (with PR name as version)
         uses: ncipollo/release-action@v1
         with:
-          artifacts: /home/runner/work/_temp/packsquash/s6pack.zip
+          artifacts: /home/runner/work/_temp/packsquash/s6pack-${{ github.event.inputs.version }}.zip
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.event.pull_request.title }}
-          body: "Hash: `${{ hashFiles('/home/runner/work/_temp/packsquash/s6pack.zip') }}`"
           
       
