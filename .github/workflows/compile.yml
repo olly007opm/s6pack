@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v3.1.0
         with:
           name: s6pack.zip
-          path: pack.zip
+          path: /home/runner/work/_temp/packsquash/pack.zip
           
           
       - if: ${{ github.event.inputs.version != '' }}
