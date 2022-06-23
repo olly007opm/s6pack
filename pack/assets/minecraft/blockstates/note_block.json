@@ -1,0 +1,3204 @@
+{
+    "variants": {
+
+        "instrument=banjo,note=0,powered=false": {
+            "model": "custom/block/minerals/diamond_bricks"
+        },
+    
+        "instrument=banjo,note=1,powered=false": {
+            "model": "custom/block/minerals/diamond_pillar"
+        },
+    
+        "instrument=banjo,note=2,powered=false": {
+            "model": "custom/block/minerals/emerald_bricks"
+        },
+    
+        "instrument=banjo,note=3,powered=false": {
+            "model": "custom/block/minerals/emerald_pillar"
+        },
+    
+        "instrument=banjo,note=4,powered=false": {
+            "model": "custom/block/minerals/gold_bricks"
+        },
+    
+        "instrument=banjo,note=5,powered=false": {
+            "model": "custom/block/minerals/gold_pillar"
+        },
+    
+        "instrument=banjo,note=6,powered=false": {
+            "model": "custom/block/minerals/iron_bricks"
+        },
+    
+        "instrument=banjo,note=7,powered=false": {
+            "model": "custom/block/minerals/iron_pillar"
+        },
+    
+        "instrument=banjo,note=8,powered=false": {
+            "model": "custom/block/minerals/netherite_bricks"
+        },
+    
+        "instrument=banjo,note=9,powered=false": {
+            "model": "custom/block/minerals/netherite_pillar"
+        },
+    
+        "instrument=banjo,note=10,powered=false": {
+            "model": "custom/block/minerals/platinum_block"
+        },
+    
+        "instrument=banjo,note=11,powered=false": {
+            "model": "custom/block/minerals/platinum_bricks"
+        },
+    
+        "instrument=banjo,note=12,powered=false": {
+            "model": "custom/block/minerals/platinum_pillar"
+        },
+    
+        "instrument=banjo,note=13,powered=false": {
+            "model": "custom/block/minerals/ruby_block"
+        },
+    
+        "instrument=banjo,note=14,powered=false": {
+            "model": "custom/block/minerals/ruby_bricks"
+        },
+    
+        "instrument=banjo,note=15,powered=false": {
+            "model": "custom/block/minerals/ruby_pillar"
+        },
+    
+        "instrument=banjo,note=16,powered=false": {
+            "model": "custom/block/crate/crate_1"
+        },
+    
+        "instrument=banjo,note=17,powered=false": {
+            "model": "custom/block/crate/crate_2"
+        },
+    
+        "instrument=banjo,note=18,powered=false": {
+            "model": "custom/block/crate/crate_3"
+        },
+    
+        "instrument=banjo,note=19,powered=false": {
+            "model": "custom/block/crate/crate_4"
+        },
+    
+        "instrument=banjo,note=20,powered=false": {
+            "model": "custom/block/food_crate/apple_basket"
+        },
+    
+        "instrument=banjo,note=21,powered=false": {
+            "model": "custom/block/food_crate/beet_crate"
+        },
+    
+        "instrument=banjo,note=22,powered=false": {
+            "model": "custom/block/food_crate/berry_basket"
+        },
+    
+        "instrument=banjo,note=23,powered=false": {
+            "model": "custom/block/food_crate/carrot_crate"
+        },
+    
+        "instrument=banjo,note=24,powered=false": {
+            "model": "custom/block/food_crate/potato_crate"
+        },
+    
+        "instrument=banjo,note=0,powered=true": {
+            "model": "custom/block/bundle/bamboo_bundle"
+        },
+    
+        "instrument=banjo,note=1,powered=true": {
+            "model": "custom/block/bundle/cactus_bundle"
+        },
+    
+        "instrument=banjo,note=2,powered=true": {
+            "model": "custom/block/bundle/stick_bundle"
+        },
+    
+        "instrument=banjo,note=3,powered=true": {
+            "model": "custom/block/bundle/sugar_cane_bundle"
+        },
+    
+        "instrument=banjo,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=banjo,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=banjo,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=banjo,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=banjo,note=8,powered=true": {
+            "model": "custom/block/shoji/shoji_block"
+        },
+    
+        "instrument=banjo,note=9,powered=true": {
+            "model": "custom/block/quilted_wool/white_quilted_wool"
+        },
+    
+        "instrument=banjo,note=10,powered=true": {
+            "model": "custom/block/quilted_wool/orange_quilted_wool"
+        },
+    
+        "instrument=banjo,note=11,powered=true": {
+            "model": "custom/block/quilted_wool/magenta_quilted_wool"
+        },
+    
+        "instrument=banjo,note=12,powered=true": {
+            "model": "custom/block/quilted_wool/light_blue_quilted_wool"
+        },
+    
+        "instrument=banjo,note=13,powered=true": {
+            "model": "custom/block/quilted_wool/yellow_quilted_wool"
+        },
+    
+        "instrument=banjo,note=14,powered=true": {
+            "model": "custom/block/quilted_wool/lime_quilted_wool"
+        },
+    
+        "instrument=banjo,note=15,powered=true": {
+            "model": "custom/block/quilted_wool/pink_quilted_wool"
+        },
+    
+        "instrument=banjo,note=16,powered=true": {
+            "model": "custom/block/quilted_wool/gray_quilted_wool"
+        },
+    
+        "instrument=banjo,note=17,powered=true": {
+            "model": "custom/block/quilted_wool/light_gray_quilted_wool"
+        },
+    
+        "instrument=banjo,note=18,powered=true": {
+            "model": "custom/block/quilted_wool/cyan_quilted_wool"
+        },
+    
+        "instrument=banjo,note=19,powered=true": {
+            "model": "custom/block/quilted_wool/purple_quilted_wool"
+        },
+    
+        "instrument=banjo,note=20,powered=true": {
+            "model": "custom/block/quilted_wool/blue_quilted_wool"
+        },
+    
+        "instrument=banjo,note=21,powered=true": {
+            "model": "custom/block/quilted_wool/brown_quilted_wool"
+        },
+    
+        "instrument=banjo,note=22,powered=true": {
+            "model": "custom/block/quilted_wool/green_quilted_wool"
+        },
+    
+        "instrument=banjo,note=23,powered=true": {
+            "model": "custom/block/quilted_wool/red_quilted_wool"
+        },
+    
+        "instrument=banjo,note=24,powered=true": {
+            "model": "custom/block/quilted_wool/black_quilted_wool"
+        },
+    
+        "instrument=basedrum,note=0,powered=false": {
+            "model": "custom/block/concrete_bricks/white_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=1,powered=false": {
+            "model": "custom/block/concrete_bricks/orange_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=2,powered=false": {
+            "model": "custom/block/concrete_bricks/magenta_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=3,powered=false": {
+            "model": "custom/block/concrete_bricks/light_blue_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=4,powered=false": {
+            "model": "custom/block/concrete_bricks/yellow_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=5,powered=false": {
+            "model": "custom/block/concrete_bricks/lime_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=6,powered=false": {
+            "model": "custom/block/concrete_bricks/pink_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=7,powered=false": {
+            "model": "custom/block/concrete_bricks/gray_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=8,powered=false": {
+            "model": "custom/block/concrete_bricks/light_gray_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=9,powered=false": {
+            "model": "custom/block/concrete_bricks/cyan_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=10,powered=false": {
+            "model": "custom/block/concrete_bricks/purple_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=11,powered=false": {
+            "model": "custom/block/concrete_bricks/blue_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=12,powered=false": {
+            "model": "custom/block/concrete_bricks/brown_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=13,powered=false": {
+            "model": "custom/block/concrete_bricks/green_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=14,powered=false": {
+            "model": "custom/block/concrete_bricks/red_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=15,powered=false": {
+            "model": "custom/block/concrete_bricks/black_concrete_bricks"
+        },
+    
+        "instrument=basedrum,note=16,powered=false": {
+            "model": "custom/block/terracotta_shingles/terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=17,powered=false": {
+            "model": "custom/block/terracotta_shingles/white_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=18,powered=false": {
+            "model": "custom/block/terracotta_shingles/orange_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=19,powered=false": {
+            "model": "custom/block/terracotta_shingles/magenta_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=20,powered=false": {
+            "model": "custom/block/terracotta_shingles/light_blue_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=21,powered=false": {
+            "model": "custom/block/terracotta_shingles/yellow_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=22,powered=false": {
+            "model": "custom/block/terracotta_shingles/lime_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=23,powered=false": {
+            "model": "custom/block/terracotta_shingles/pink_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=24,powered=false": {
+            "model": "custom/block/terracotta_shingles/gray_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=0,powered=true": {
+            "model": "custom/block/terracotta_shingles/light_gray_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=1,powered=true": {
+            "model": "custom/block/terracotta_shingles/cyan_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=2,powered=true": {
+            "model": "custom/block/terracotta_shingles/purple_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=3,powered=true": {
+            "model": "custom/block/terracotta_shingles/blue_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=4,powered=true": {
+            "model": "custom/block/terracotta_shingles/brown_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=5,powered=true": {
+            "model": "custom/block/terracotta_shingles/green_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=6,powered=true": {
+            "model": "custom/block/terracotta_shingles/red_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=7,powered=true": {
+            "model": "custom/block/terracotta_shingles/black_terracotta_shingles"
+        },
+    
+        "instrument=basedrum,note=8,powered=true": {
+            "model": "custom/block/fungal_planks/fungal_planks"
+        },
+    
+        "instrument=basedrum,note=9,powered=true": {
+            "model": "custom/block/fungal_planks/white_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=10,powered=true": {
+            "model": "custom/block/fungal_planks/orange_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=11,powered=true": {
+            "model": "custom/block/fungal_planks/magenta_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=12,powered=true": {
+            "model": "custom/block/fungal_planks/light_blue_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=13,powered=true": {
+            "model": "custom/block/fungal_planks/yellow_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=14,powered=true": {
+            "model": "custom/block/fungal_planks/lime_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=15,powered=true": {
+            "model": "custom/block/fungal_planks/pink_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=16,powered=true": {
+            "model": "custom/block/fungal_planks/gray_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=17,powered=true": {
+            "model": "custom/block/fungal_planks/light_gray_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=18,powered=true": {
+            "model": "custom/block/fungal_planks/cyan_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=19,powered=true": {
+            "model": "custom/block/fungal_planks/purple_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=20,powered=true": {
+            "model": "custom/block/fungal_planks/blue_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=21,powered=true": {
+            "model": "custom/block/fungal_planks/brown_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=22,powered=true": {
+            "model": "custom/block/fungal_planks/green_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=23,powered=true": {
+            "model": "custom/block/fungal_planks/red_fungal_planks"
+        },
+    
+        "instrument=basedrum,note=24,powered=true": {
+            "model": "custom/block/fungal_planks/black_fungal_planks"
+        },
+    
+        "instrument=bass,note=0,powered=false": {
+            "model": "custom/block/carved_planks/acacia_carved_planks"
+        },
+    
+        "instrument=bass,note=1,powered=false": {
+            "model": "custom/block/carved_planks/birch_carved_planks"
+        },
+    
+        "instrument=bass,note=2,powered=false": {
+            "model": "custom/block/carved_planks/crimson_carved_planks"
+        },
+    
+        "instrument=bass,note=3,powered=false": {
+            "model": "custom/block/carved_planks/dark_oak_carved_planks"
+        },
+    
+        "instrument=bass,note=4,powered=false": {
+            "model": "custom/block/carved_planks/fungal_carved_planks"
+        },
+    
+        "instrument=bass,note=5,powered=false": {
+            "model": "custom/block/carved_planks/jungle_carved_planks"
+        },
+    
+        "instrument=bass,note=6,powered=false": {
+            "model": "custom/block/carved_planks/oak_carved_planks"
+        },
+    
+        "instrument=bass,note=7,powered=false": {
+            "model": "custom/block/carved_planks/spruce_carved_planks"
+        },
+    
+        "instrument=bass,note=8,powered=false": {
+            "model": "custom/block/carved_planks/warped_carved_planks"
+        },
+    
+        "instrument=bass,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bass,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bell,note=0,powered=false": {
+            "model": "custom/block/earth/andesite_bricks"
+        },
+    
+        "instrument=bell,note=1,powered=false": {
+            "model": "custom/block/earth/chiseled_andesite"
+        },
+    
+        "instrument=bell,note=2,powered=false": {
+            "model": "custom/block/earth/andesite_road"
+        },
+    
+        "instrument=bell,note=3,powered=false": {
+            "model": "custom/block/earth/basalt_bricks"
+        },
+    
+        "instrument=bell,note=4,powered=false": {
+            "model": "custom/block/earth/basalt_tiles"
+        },
+    
+        "instrument=bell,note=5,powered=false": {
+            "model": "custom/block/earth/crying_obsidian_bricks"
+        },
+    
+        "instrument=bell,note=6,powered=false": {
+            "model": "custom/block/earth/diorite_bricks"
+        },
+    
+        "instrument=bell,note=7,powered=false": {
+            "model": "custom/block/earth/chiseled_diorite"
+        },
+    
+        "instrument=bell,note=8,powered=false": {
+            "model": "custom/block/earth/diorite_road"
+        },
+    
+        "instrument=bell,note=9,powered=false": {
+            "model": "custom/block/earth/packed_dirt"
+        },
+    
+        "instrument=bell,note=10,powered=false": {
+            "model": "custom/block/earth/mud"
+        },
+    
+        "instrument=bell,note=11,powered=false": {
+            "model": "custom/block/earth/dried_mud"
+        },
+    
+        "instrument=bell,note=12,powered=false": {
+            "model": "custom/block/earth/mud_bricks"
+        },
+    
+        "instrument=bell,note=13,powered=false": {
+            "model": "custom/block/earth/chiseled_mud_bricks"
+        },
+    
+        "instrument=bell,note=14,powered=false": {
+            "model": "custom/block/earth/granite_bricks"
+        },
+    
+        "instrument=bell,note=15,powered=false": {
+            "model": "custom/block/earth/chiseled_granite"
+        },
+    
+        "instrument=bell,note=16,powered=false": {
+            "model": "custom/block/earth/granite_road"
+        },
+    
+        "instrument=bell,note=17,powered=false": {
+            "model": "custom/block/earth/gilded_sandstone"
+        },
+    
+        "instrument=bell,note=18,powered=false": {
+            "model": "custom/block/earth/chiseled_gilded_sandstone"
+        },
+    
+        "instrument=bell,note=19,powered=false": {
+            "model": "custom/block/earth/gilded_sandstone_pillar"
+        },
+    
+        "instrument=bell,note=20,powered=false": {
+            "model": "custom/block/earth/limestone"
+        },
+    
+        "instrument=bell,note=21,powered=false": {
+            "model": "custom/block/earth/polished_limestone"
+        },
+    
+        "instrument=bell,note=22,powered=false": {
+            "model": "custom/block/earth/limestone_bricks"
+        },
+    
+        "instrument=bell,note=23,powered=false": {
+            "model": "custom/block/earth/chiseled_limestone"
+        },
+    
+        "instrument=bell,note=24,powered=false": {
+            "model": "custom/block/earth/limestone_pillar"
+        },
+    
+        "instrument=bell,note=0,powered=true": {
+            "model": "custom/block/earth/marble"
+        },
+    
+        "instrument=bell,note=1,powered=true": {
+            "model": "custom/block/earth/marble_bricks"
+        },
+    
+        "instrument=bell,note=2,powered=true": {
+            "model": "custom/block/earth/chiseled_marble"
+        },
+    
+        "instrument=bell,note=3,powered=true": {
+            "model": "custom/block/earth/marble_pillar"
+        },
+    
+        "instrument=bell,note=4,powered=true": {
+            "model": "custom/block/earth/marble_pillar_top"
+        },
+    
+        "instrument=bell,note=5,powered=true": {
+            "model": "custom/block/earth/marble_pillar_bottom"
+        },
+    
+        "instrument=bell,note=6,powered=true": {
+            "model": "custom/block/earth/chiseled_stone"
+        },
+    
+        "instrument=bell,note=7,powered=true": {
+            "model": "custom/block/earth/scoria"
+        },
+    
+        "instrument=bell,note=8,powered=true": {
+            "model": "custom/block/earth/scoria_bricks"
+        },
+    
+        "instrument=bell,note=9,powered=true": {
+            "model": "custom/block/earth/chiseled_scoria"
+        },
+    
+        "instrument=bell,note=10,powered=true": {
+            "model": "custom/block/earth/slate"
+        },
+    
+        "instrument=bell,note=11,powered=true": {
+            "model": "custom/block/earth/polished_slate"
+        },
+    
+        "instrument=bell,note=12,powered=true": {
+            "model": "custom/block/earth/smooth_slate"
+        },
+    
+        "instrument=bell,note=13,powered=true": {
+            "model": "custom/block/earth/slate_bricks"
+        },
+    
+        "instrument=bell,note=14,powered=true": {
+            "model": "custom/block/earth/chiseled_slate"
+        },
+    
+        "instrument=bell,note=15,powered=true": {
+            "model": "custom/block/earth/carved_slate"
+        },
+    
+        "instrument=bell,note=16,powered=true": {
+            "model": "custom/block/earth/slate_pillar"
+        },
+    
+        "instrument=bell,note=17,powered=true": {
+            "model": "custom/block/earth/slate_tiles"
+        },
+    
+        "instrument=bell,note=18,powered=true": {
+            "model": "custom/block/earth/strata"
+        },
+    
+        "instrument=bell,note=19,powered=true": {
+            "model": "custom/block/earth/polished_strata"
+        },
+    
+        "instrument=bell,note=20,powered=true": {
+            "model": "custom/block/earth/strata_bricks"
+        },
+    
+        "instrument=bell,note=21,powered=true": {
+            "model": "custom/block/earth/chiseled_strata"
+        },
+    
+        "instrument=bell,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bell,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bell,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=bit,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=chime,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=cow_bell,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=didgeridoo,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=flute,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=guitar,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=iron_xylophone,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=harp,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=pling,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=snare,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=hat,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=0,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=1,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=2,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=3,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=4,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=5,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=6,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=7,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=8,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=9,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=10,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=11,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=12,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=13,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=14,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=15,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=16,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=17,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=18,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=19,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=20,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=21,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=22,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=23,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=24,powered=false": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=0,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=1,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=2,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=3,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=4,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=5,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=6,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=7,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=8,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=9,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=10,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=11,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=12,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=13,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=14,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=15,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=16,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=17,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=18,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=19,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=20,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=21,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=22,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=23,powered=true": {
+            "model": "custom/block/no_texture"
+        },
+    
+        "instrument=xylophone,note=24,powered=true": {
+            "model": "custom/block/no_texture"
+        }
+    }
+}
