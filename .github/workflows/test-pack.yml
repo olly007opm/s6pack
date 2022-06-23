@@ -24,7 +24,7 @@ jobs:
           path: 'test'
       
       - name: Rename artifact
-        run: mv /home/runner/work/_temp/packsquash/test.zip /home/runner/work/_temp/packsquash/testpack.zip
+        run: mv /home/runner/work/_temp/packsquash/pack.zip /home/runner/work/_temp/packsquash/testpack.zip
       
       - name: Upload artifact
         uses: actions/upload-artifact@v3.1.0
