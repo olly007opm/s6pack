@@ -22,7 +22,7 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@v3.0.0
         with:
           path: 'pack'
-          artifact_name: 's6pack.zip'
+          artifact_name: 'pack.zip'
 #           zip_spec_conformance_level: disregard
 #           size_increasing_zip_obfuscation: true
           
@@ -31,14 +31,14 @@ jobs:
         uses: actions/upload-artifact@v3.1.0
         with:
           name: s6pack.zip
-          path: s6pack.zip
+          path: pack.zip
           
           
       - if: ${{ github.event.inputs.version != '' }}
         name: Release artifact (with given version)
         uses: ncipollo/release-action@v1
         with:
-          artifacts: 's6pack.zip'
+          artifacts: pack.zip
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.event.inputs.version }}
 
@@ -47,7 +47,7 @@ jobs:
         name: Release artifact (with PR name as version)
         uses: ncipollo/release-action@v1
         with:
-          artifacts: 's6pack.zip'
+          artifacts: pack.zip
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.event.pull_request.title }}
           
