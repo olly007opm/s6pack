@@ -15,10 +15,10 @@ jobs:
       - name: Print the value of version
         run: echo ${{ github.event.inputs.version }}
           
-      - if: ${{ github.event.inputs.version != null }}
-        name: Check if version is null
-        run: echo version is null
+      - if: ${{ github.event.inputs.version == '' }}
+        name: Check if version does not exist
+        run: echo version does not exist
         
-      - if: ${{ github.event.inputs.version }}
-        name: Check if version is empty string
+      - if: ${{ github.event.inputs.version != '' }}
+        name: Check if version exists
         run: echo version exists
