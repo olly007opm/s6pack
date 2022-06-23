@@ -22,18 +22,18 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@v3.0.0
         with:
           path: 'pack'
-          artifact_name: 's6pack.zip'
 #           zip_spec_conformance_level: disregard
 #           size_increasing_zip_obfuscation: true
-          
-        
+      
+      - name: Rename artifact
+        run: mv /home/runner/work/_temp/packsquash/pack.zip /home/runner/work/_temp/packsquash/s6pack.zip
+      
       - name: Upload artifact
         uses: actions/upload-artifact@v3.1.0
         with:
           name: s6pack.zip
           path: /home/runner/work/_temp/packsquash/s6pack.zip
           if-no-files-found: error
-          
           
       - if: ${{ github.event.inputs.version != '' }}
         name: Release artifact (with given version)
