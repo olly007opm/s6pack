@@ -1,0 +1,24 @@
+name: Dev testing
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Some text to print'
+        required: true 
+        type: string
+
+jobs:
+  dev:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print the value of version
+        run: echo ${{ github.event.inputs.version }}
+          
+      - if: ${{ github.event.inputs.version != null }}
+        name: Check if version is null
+        run: echo version is null
+
+      - if: ${{ github.event.inputs.version != "" }}
+        name: Check if version is empty string
+        run: echo version is empty string
