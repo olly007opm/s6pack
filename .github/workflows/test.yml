@@ -1,0 +1,45 @@
+name: Compile Pack (test)
+
+on:
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'The version of the pack'
+        required: true 
+        type: string
+
+jobs:
+  compile-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      - name: Compile pack
+        uses: ComunidadAylas/PackSquash-action@v3.0.0
+        with:
+          path: 'test'
+      
+      - name: Rename artifact
+        run: mv /home/runner/work/_temp/packsquash/pack.zip /home/runner/work/_temp/packsquash/testpack-${{ github.event.inputs.version }}.zip
+      
+      - name: Add version to version file
+        run: echo "${{ github.event.inputs.version }}" > /home/runner/work/_temp/packsquash/version.txt
+      
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: s6pack.zip
+          path: /home/runner/work/_temp/packsquash/testpack-${{ github.event.inputs.version }}.zip
+          if-no-files-found: error
+
+      - name: Upload version
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: version.txt
+          path: /home/runner/work/_temp/packsquash/version.txt
+          if-no-files-found: error
+          
