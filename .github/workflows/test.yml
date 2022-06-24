@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3.1.0
         with:
-          name: s6pack.zip
+          name: testpack-${{ github.event.inputs.version }}.zip
           path: /home/runner/work/_temp/packsquash/testpack-${{ github.event.inputs.version }}.zip
           if-no-files-found: error
 
