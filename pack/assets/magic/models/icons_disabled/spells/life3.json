@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon_disabled",
-    "textures": {
-        "particle": "magic:icons/spells/life3",
-        "texture": "magic:icons/spells/life3"
-    }
-}
+{"parent":"magic:base/icon_disabled","textures":{"particle":"magic:icons/spells/life3","texture":"magic:icons/spells/life3"}}

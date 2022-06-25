@@ -1,1 +1,1 @@
-{"parent": "minecraft:custom/item", "textures": {"layer0": "minecraft:custom/dev/beach_grass"}}
+{"parent":"minecraft:custom/item","textures":{"layer0":"minecraft:custom/dev/beach_grass"}}

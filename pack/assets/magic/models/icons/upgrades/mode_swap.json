@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/upgrades/mode_swap",
-        "texture": "magic:icons/upgrades/mode_swap"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/upgrades/mode_swap","texture":"magic:icons/upgrades/mode_swap"}}

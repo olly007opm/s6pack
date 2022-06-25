@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/superdisc",
-        "texture": "magic:icons/spells/superdisc"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/superdisc","texture":"magic:icons/spells/superdisc"}}

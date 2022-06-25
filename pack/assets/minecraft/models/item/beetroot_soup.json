@@ -3,9 +3,18 @@
   "textures": {
     "layer0": "minecraft:item/beetroot_soup"
   },
-
   "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/pickpocket"},
-    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/pickpocket"}
+    {
+      "predicate": {
+        "custom_model_data": 18001
+      },
+      "model": "magic:icons/spells/pickpocket"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18002
+      },
+      "model": "magic:icons_disabled/spells/pickpocket"
+    }
   ]
 }

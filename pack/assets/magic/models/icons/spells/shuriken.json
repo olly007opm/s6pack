@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/shuriken",
-        "texture": "magic:icons/spells/shuriken"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/shuriken","texture":"magic:icons/spells/shuriken"}}

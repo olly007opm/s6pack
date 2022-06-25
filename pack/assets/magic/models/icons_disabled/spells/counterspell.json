@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon_disabled",
-    "textures": {
-        "particle": "magic:icons/spells/counterspell",
-        "texture": "magic:icons/spells/counterspell"
-    }
-}
+{"parent":"magic:base/icon_disabled","textures":{"particle":"magic:icons/spells/counterspell","texture":"magic:icons/spells/counterspell"}}

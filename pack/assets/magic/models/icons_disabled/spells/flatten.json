@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon_disabled",
-    "textures": {
-        "particle": "magic:icons/spells/flatten",
-        "texture": "magic:icons/spells/flatten"
-    }
-}
+{"parent":"magic:base/icon_disabled","textures":{"particle":"magic:icons/spells/flatten","texture":"magic:icons/spells/flatten"}}

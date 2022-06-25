@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon_full",
-    "textures": {
-        "particle": "magic:icons/classes/druid",
-        "texture": "magic:icons/classes/druid"
-    }
-}
+{"parent":"magic:base/icon_full","textures":{"particle":"magic:icons/classes/druid","texture":"magic:icons/classes/druid"}}

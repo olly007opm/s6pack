@@ -1,6 +1,1 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "items/wrench"
-	}
-}
+{"parent":"item/handheld","textures":{"layer0":"items/wrench"}}

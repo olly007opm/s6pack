@@ -1,6 +1,1 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "magic:wands/flat/broomstick"
-  }
-}
+{"parent":"item/handheld","textures":{"layer0":"magic:wands/flat/broomstick"}}

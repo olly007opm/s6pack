@@ -1,6 +1,1 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "magic:other/grilled_cheese"
-    }
-}
+{"parent":"item/handheld","textures":{"layer0":"magic:other/grilled_cheese"}}

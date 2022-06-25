@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/recurse",
-        "texture": "magic:icons/spells/recurse"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/recurse","texture":"magic:icons/spells/recurse"}}

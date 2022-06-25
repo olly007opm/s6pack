@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon_full",
-    "textures": {
-        "particle": "magic:icons/classes/artificer",
-        "texture": "magic:icons/classes/artificer"
-    }
-}
+{"parent":"magic:base/icon_full","textures":{"particle":"magic:icons/classes/artificer","texture":"magic:icons/classes/artificer"}}

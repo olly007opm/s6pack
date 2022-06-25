@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/upgrades/quickcast_enable",
-        "texture": "magic:icons/upgrades/quickcast_enable"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/upgrades/quickcast_enable","texture":"magic:icons/upgrades/quickcast_enable"}}

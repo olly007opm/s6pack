@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/pollinate",
-        "texture": "magic:icons/spells/pollinate"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/pollinate","texture":"magic:icons/spells/pollinate"}}

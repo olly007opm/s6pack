@@ -1,1 +1,1 @@
-{"parent": "minecraft:custom/item", "textures": {"layer0": "minecraft:custom/dev/axolotl_bucket_gold"}}
+{"parent":"minecraft:custom/item","textures":{"layer0":"minecraft:custom/dev/axolotl_bucket_gold"}}

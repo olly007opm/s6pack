@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon_full",
-    "textures": {
-        "particle": "magic:icons/races/elf",
-        "texture": "magic:icons/races/elf"
-    }
-}
+{"parent":"magic:base/icon_full","textures":{"particle":"magic:icons/races/elf","texture":"magic:icons/races/elf"}}

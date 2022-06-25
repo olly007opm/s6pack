@@ -1,1 +1,1 @@
-{"parent": "minecraft:custom/item", "textures": {"layer0": "minecraft:custom/dev/tuning_fork"}}
+{"parent":"minecraft:custom/item","textures":{"layer0":"minecraft:custom/dev/tuning_fork"}}

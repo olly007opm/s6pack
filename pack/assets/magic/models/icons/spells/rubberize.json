@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/rubberize",
-        "texture": "magic:icons/spells/rubberize"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/rubberize","texture":"magic:icons/spells/rubberize"}}

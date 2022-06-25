@@ -1,6 +1,1 @@
-{
-    "parent": "item/handheld",
-    "textures": {
-        "layer0": "magic:other/sandwich"
-    }
-}
+{"parent":"item/handheld","textures":{"layer0":"magic:other/sandwich"}}

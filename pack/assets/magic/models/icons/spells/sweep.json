@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/wound",
-        "texture": "magic:icons/spells/wound"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/wound","texture":"magic:icons/spells/wound"}}

@@ -1,1 +1,1 @@
-{"parent": "minecraft:custom/item", "textures": {"layer0": "minecraft:custom/other/ci_token"}}
+{"parent":"minecraft:custom/item","textures":{"layer0":"minecraft:custom/other/ci_token"}}

@@ -1,6 +1,1 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "magic:wands/flat/elder"
-  }
-}
+{"parent":"item/handheld","textures":{"layer0":"magic:wands/flat/elder"}}

@@ -1,7 +1,1 @@
-{
-  "parent": "minecraft:block/black_concrete",
-
-  "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/generic/black"}
-  ]
-}
+{"parent":"minecraft:block/black_concrete","overrides":[{"predicate":{"custom_model_data":18001},"model":"magic:icons/generic/black"}]}

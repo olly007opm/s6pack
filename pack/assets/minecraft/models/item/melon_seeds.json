@@ -3,10 +3,24 @@
   "textures": {
     "layer0": "minecraft:item/melon_seeds"
   },
-
   "overrides": [
-    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/meteor"},
-    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/meteor"},
-    {"predicate": { "custom_model_data": 18003}, "model": "magic:other/atm2"}
+    {
+      "predicate": {
+        "custom_model_data": 18001
+      },
+      "model": "magic:icons/spells/meteor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18002
+      },
+      "model": "magic:icons_disabled/spells/meteor"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18003
+      },
+      "model": "magic:other/atm2"
+    }
   ]
 }

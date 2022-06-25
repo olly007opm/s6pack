@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/silence",
-        "texture": "magic:icons/spells/silence"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/silence","texture":"magic:icons/spells/silence"}}

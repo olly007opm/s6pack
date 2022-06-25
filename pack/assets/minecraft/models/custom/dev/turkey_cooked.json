@@ -1,1 +1,1 @@
-{"parent": "minecraft:custom/item", "textures": {"layer0": "minecraft:custom/dev/turkey_cooked"}}
+{"parent":"minecraft:custom/item","textures":{"layer0":"minecraft:custom/dev/turkey_cooked"}}

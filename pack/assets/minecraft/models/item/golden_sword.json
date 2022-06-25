@@ -43,7 +43,7 @@
     {
       "predicate": {
         "damaged": 0,
-        "damage": 0.18181818181818182
+        "damage": 0.18181818181818185
       },
       "model": "magic:sabers/lightsaber_purple"
     },

@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon_full_disabled",
-    "textures": {
-        "particle": "magic:icons/attributes/dexterity",
-        "texture": "magic:icons/attributes/dexterity"
-    }
-}
+{"parent":"magic:base/icon_full_disabled","textures":{"particle":"magic:icons/attributes/dexterity","texture":"magic:icons/attributes/dexterity"}}

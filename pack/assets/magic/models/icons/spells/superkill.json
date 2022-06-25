@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/superkill",
-        "texture": "magic:icons/spells/superkill"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/superkill","texture":"magic:icons/spells/superkill"}}

@@ -1,12 +1,1 @@
-{
-    "parent": "custom/cube",
-    "textures": {
-        "particle": "#side",
-        "down": "#bottom",
-        "up": "#top",
-        "north": "#side",
-        "east": "#side",
-        "south": "#side",
-        "west": "#side"
-    }
-}
+{"parent":"custom/cube","textures":{"particle":"#side","down":"#bottom","up":"#top","north":"#side","east":"#side","south":"#side","west":"#side"}}

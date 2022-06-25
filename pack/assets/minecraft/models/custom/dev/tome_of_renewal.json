@@ -1,1 +1,1 @@
-{"parent": "minecraft:custom/item", "textures": {"layer0": "minecraft:custom/dev/tome_of_renewal"}}
+{"parent":"minecraft:custom/item","textures":{"layer0":"minecraft:custom/dev/tome_of_renewal"}}

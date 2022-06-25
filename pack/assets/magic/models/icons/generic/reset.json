@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon_full",
-    "textures": {
-        "particle": "magic:icons/spells/kill",
-        "texture": "magic:icons/spells/kill"
-    }
-}
+{"parent":"magic:base/icon_full","textures":{"particle":"magic:icons/spells/kill","texture":"magic:icons/spells/kill"}}

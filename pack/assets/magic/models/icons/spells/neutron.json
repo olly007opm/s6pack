@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/neutron",
-        "texture": "magic:icons/spells/neutron"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/neutron","texture":"magic:icons/spells/neutron"}}

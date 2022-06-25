@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon_full",
-    "textures": {
-        "particle": "magic:icons/generic/gray",
-        "texture": "magic:icons/generic/gray"
-    }
-}
+{"parent":"magic:base/icon_full","textures":{"particle":"magic:icons/generic/gray","texture":"magic:icons/generic/gray"}}

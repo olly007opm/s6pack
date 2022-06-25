@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon_disabled",
-    "textures": {
-        "particle": "magic:icons/spells/supergather",
-        "texture": "magic:icons/spells/supergather"
-    }
-}
+{"parent":"magic:base/icon_disabled","textures":{"particle":"magic:icons/spells/supergather","texture":"magic:icons/spells/supergather"}}

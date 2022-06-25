@@ -1,1 +1,1 @@
-{"parent": "minecraft:custom/item", "textures": {"layer0": "minecraft:custom/dev/bottled_experience"}}
+{"parent":"minecraft:custom/item","textures":{"layer0":"minecraft:custom/dev/bottled_experience"}}

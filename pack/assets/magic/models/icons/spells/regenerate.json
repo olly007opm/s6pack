@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/regenerate",
-        "texture": "magic:icons/spells/regenerate"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/regenerate","texture":"magic:icons/spells/regenerate"}}

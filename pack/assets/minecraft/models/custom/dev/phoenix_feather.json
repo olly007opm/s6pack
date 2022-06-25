@@ -1,1 +1,1 @@
-{"parent": "minecraft:custom/item", "textures": {"layer0": "minecraft:custom/dev/phoenix_feather"}}
+{"parent":"minecraft:custom/item","textures":{"layer0":"minecraft:custom/dev/phoenix_feather"}}

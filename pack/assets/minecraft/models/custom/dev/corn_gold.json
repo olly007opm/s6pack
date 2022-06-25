@@ -1,1 +1,1 @@
-{"parent": "minecraft:custom/item", "textures": {"layer0": "minecraft:custom/dev/corn_gold"}}
+{"parent":"minecraft:custom/item","textures":{"layer0":"minecraft:custom/dev/corn_gold"}}

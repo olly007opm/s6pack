@@ -1,7 +1,1 @@
-{
-    "parent" : "magic:base/icon",
-    "textures": {
-        "particle": "magic:icons/spells/supercylinder",
-        "texture": "magic:icons/spells/supercylinder"
-    }
-}
+{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/supercylinder","texture":"magic:icons/spells/supercylinder"}}
