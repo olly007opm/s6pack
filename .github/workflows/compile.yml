@@ -22,32 +22,39 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@v3.0.0
         with:
           path: 'pack'
+          artifact_name: s6pack
 #           zip_spec_conformance_level: disregard
 #           size_increasing_zip_obfuscation: true
-      
 
-      # Rename artifact
+        
+      # Download artifact
       # With given version
       - if: ${{ github.event.inputs.version != '' }}
-        name: Rename artifact (with given version)
-        run: mv /home/runner/work/_temp/packsquash/pack.zip /home/runner/work/_temp/packsquash/s6pack-${{ github.event.inputs.version }}.zip
-
+        name: Download artifact (with given version)
+        uses: actions/download-artifact@v3.0.0
+        with:
+          name: s6pack
+          path: s6pack-${{ github.event.inputs.version }}.zip
+      
       # With PR version
       - if: ${{ github.event.inputs.version == '' }}
-        name: Rename artifact (with PR name as version)
-        run: mv /home/runner/work/_temp/packsquash/pack.zip /home/runner/work/_temp/packsquash/s6pack-${{ github.event.pull_request.title }}.zip
+        name: Download artifact (with PR name as version)
+        uses: actions/download-artifact@v3.0.0
+        with:
+          name: s6pack
+          path: s6pack-${{ github.event.pull_request.title }}.zip
 
 
       # Add version to version.txt
       # With given version
       - if: ${{ github.event.inputs.version != '' }}
         name: Add version to version file (with given version)
-        run: echo "${{ github.event.inputs.version }}" > /home/runner/work/_temp/packsquash/version.txt
+        run: echo "${{ github.event.inputs.version }}" > version.txt
         
       # With PR version
       - if: ${{ github.event.inputs.version == '' }}
         name: Add version to version file (with PR name as version)
-        run: echo "${{ github.event.pull_request.title }}" > /home/runner/work/_temp/packsquash/version.txt
+        run: echo "${{ github.event.pull_request.title }}" > version.txt
 
       
       # Upload artifact
@@ -57,7 +64,7 @@ jobs:
         uses: actions/upload-artifact@v3.1.0
         with:
           name: s6pack-${{ github.event.inputs.version }}.zip
-          path: /home/runner/work/_temp/packsquash/s6pack-${{ github.event.inputs.version }}.zip
+          path: s6pack-${{ github.event.inputs.version }}.zip
           if-no-files-found: error
       
       # With PR version
@@ -66,7 +73,7 @@ jobs:
         uses: actions/upload-artifact@v3.1.0
         with:
           name: s6pack-${{ github.event.inputs.version }}.zip
-          path: /home/runner/work/_temp/packsquash/s6pack-${{ github.event.inputs.version }}.zip
+          path: s6pack-${{ github.event.inputs.version }}.zip
           if-no-files-found: error
       
 
@@ -75,7 +82,7 @@ jobs:
         uses: actions/upload-artifact@v3.1.0
         with:
           name: version.txt
-          path: /home/runner/work/_temp/packsquash/version.txt
+          path: version.txt
           if-no-files-found: error
 
       # Release artifacts
@@ -84,7 +91,7 @@ jobs:
         name: Release artifact (with given version)
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "/home/runner/work/_temp/packsquash/s6pack-${{ github.event.inputs.version }}.zip, /home/runner/work/_temp/packsquash/version.txt"
+          artifacts: "s6pack-${{ github.event.inputs.version }}.zip, version.txt"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.event.inputs.version }}
 
@@ -93,7 +100,7 @@ jobs:
         name: Release artifact (with PR name as version)
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "/home/runner/work/_temp/packsquash/s6pack-${{ github.event.pull_request.title }}.zip, /home/runner/work/_temp/packsquash/version.txt"
+          artifacts: "s6pack-${{ github.event.pull_request.title }}.zip, version.txt"
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ github.event.pull_request.title }}
           
