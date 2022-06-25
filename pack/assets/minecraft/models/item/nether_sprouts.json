@@ -3,18 +3,9 @@
   "textures": {
     "layer0": "minecraft:item/nether_sprouts"
   },
+
   "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 18001
-      },
-      "model": "magic:icons/spells/collapse"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 18002
-      },
-      "model": "magic:icons_disabled/spells/collapse"
-    }
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/collapse"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/collapse"}
   ]
 }

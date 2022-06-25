@@ -1,1 +1,7 @@
-{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/grenade","texture":"magic:icons/spells/grenade"}}
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/spells/grenade",
+        "texture": "magic:icons/spells/grenade"
+    }
+}

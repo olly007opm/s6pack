@@ -1,1 +1,7 @@
-{"parent":"magic:base/icon_full","textures":{"particle":"magic:icons/attributes/constitution","texture":"magic:icons/attributes/constitution"}}
+{
+    "parent" : "magic:base/icon_full",
+    "textures": {
+        "particle": "magic:icons/attributes/constitution",
+        "texture": "magic:icons/attributes/constitution"
+    }
+}

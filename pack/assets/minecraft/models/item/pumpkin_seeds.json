@@ -3,18 +3,9 @@
   "textures": {
     "layer0": "minecraft:item/pumpkin_seeds"
   },
+
   "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 18001
-      },
-      "model": "magic:icons/spells/cluster"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 18002
-      },
-      "model": "magic:icons_disabled/spells/cluster"
-    }
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/cluster"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/cluster"}
   ]
 }

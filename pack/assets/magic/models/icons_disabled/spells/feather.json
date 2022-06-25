@@ -1,1 +1,7 @@
-{"parent":"magic:base/icon_disabled","textures":{"particle":"magic:icons/spells/feather","texture":"magic:icons/spells/feather"}}
+{
+    "parent" : "magic:base/icon_disabled",
+    "textures": {
+        "particle": "magic:icons/spells/feather",
+        "texture": "magic:icons/spells/feather"
+    }
+}

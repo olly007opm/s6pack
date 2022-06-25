@@ -3,18 +3,9 @@
   "textures": {
     "layer0": "minecraft:item/cyan_dye"
   },
+
   "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 18001
-      },
-      "model": "magic:icons/spells/bubble"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 18002
-      },
-      "model": "magic:icons_disabled/spells/bubble"
-    }
+    {"predicate": { "custom_model_data": 18001}, "model": "magic:icons/spells/bubble"},
+    {"predicate": { "custom_model_data": 18002}, "model": "magic:icons_disabled/spells/bubble"}
   ]
 }

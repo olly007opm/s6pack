@@ -1,1 +1,7 @@
-{"parent":"magic:base/icon","textures":{"particle":"magic:icons/spells/railgun","texture":"magic:icons/spells/railgun"}}
+{
+    "parent" : "magic:base/icon",
+    "textures": {
+        "particle": "magic:icons/spells/railgun",
+        "texture": "magic:icons/spells/railgun"
+    }
+}

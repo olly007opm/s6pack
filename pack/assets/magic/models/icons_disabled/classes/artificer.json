@@ -1,1 +1,7 @@
-{"parent":"magic:base/icon_full_disabled","textures":{"particle":"magic:icons/spells/harden","texture":"magic:icons/spells/harden"}}
+{
+    "parent" : "magic:base/icon_full_disabled",
+    "textures": {
+        "particle": "magic:icons/spells/harden",
+        "texture": "magic:icons/spells/harden"
+    }
+}

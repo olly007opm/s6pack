@@ -1,1 +1,7 @@
-{"parent":"magic:base/icon_disabled","textures":{"particle":"magic:icons/spells/hunter","texture":"magic:icons/spells/hunter"}}
+{
+    "parent" : "magic:base/icon_disabled",
+    "textures": {
+        "particle": "magic:icons/spells/hunter",
+        "texture": "magic:icons/spells/hunter"
+    }
+}
