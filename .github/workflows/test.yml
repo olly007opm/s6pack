@@ -21,25 +21,26 @@ jobs:
       - name: Compile pack
         uses: ComunidadAylas/PackSquash-action@v3.0.0
         with:
-          path: 'test'
+          path: 'pack'
+          artifact_name: test_pack
       
-      - name: Rename artifact
-        run: mv /home/runner/work/_temp/packsquash/pack.zip /home/runner/work/_temp/packsquash/testpack-${{ github.event.inputs.version }}.zip
+#       - name: Rename artifact
+#         run: mv /home/runner/work/_temp/packsquash/pack.zip /home/runner/work/_temp/packsquash/testpack-${{ github.event.inputs.version }}.zip
       
-      - name: Add version to version file
-        run: echo "${{ github.event.inputs.version }}" > /home/runner/work/_temp/packsquash/version.txt
+#       - name: Add version to version file
+#         run: echo "${{ github.event.inputs.version }}" > /home/runner/work/_temp/packsquash/version.txt
       
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3.1.0
-        with:
-          name: testpack-${{ github.event.inputs.version }}.zip
-          path: /home/runner/work/_temp/packsquash/testpack-${{ github.event.inputs.version }}.zip
-          if-no-files-found: error
+#       - name: Upload artifact
+#         uses: actions/upload-artifact@v3.1.0
+#         with:
+#           name: testpack-${{ github.event.inputs.version }}.zip
+#           path: /home/runner/work/_temp/packsquash/testpack-${{ github.event.inputs.version }}.zip
+#           if-no-files-found: error
 
-      - name: Upload version
-        uses: actions/upload-artifact@v3.1.0
-        with:
-          name: version.txt
-          path: /home/runner/work/_temp/packsquash/version.txt
-          if-no-files-found: error
+#       - name: Upload version
+#         uses: actions/upload-artifact@v3.1.0
+#         with:
+#           name: version.txt
+#           path: /home/runner/work/_temp/packsquash/version.txt
+#           if-no-files-found: error
           
