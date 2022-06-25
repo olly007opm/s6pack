@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:custom/item",
+  "textures": {
+    "layer0": "minecraft:custom/icon/icon_name"
+  }
+}
