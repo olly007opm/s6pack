@@ -82,7 +82,7 @@ jobs:
         uses: actions/upload-artifact@v3.1.0
         with:
           name: version.txt
-          path: /home/runner/work/_temp/packsquash/version.txt
+          path: version.txt
           if-no-files-found: error
 
       # Release artifacts
