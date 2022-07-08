@@ -11,7 +11,7 @@ on:
         type: string
 
 jobs:
-  compile-test:
+  compile:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -21,26 +21,81 @@ jobs:
       - name: Compile pack
         uses: ComunidadAylas/PackSquash-action@v3.0.0
         with:
-          path: 'pack'
-          artifact_name: test_pack
-      
-#       - name: Rename artifact
-#         run: mv /home/runner/work/_temp/packsquash/pack.zip /home/runner/work/_temp/packsquash/testpack-${{ github.event.inputs.version }}.zip
-      
-#       - name: Add version to version file
-#         run: echo "${{ github.event.inputs.version }}" > /home/runner/work/_temp/packsquash/version.txt
-      
-#       - name: Upload artifact
-#         uses: actions/upload-artifact@v3.1.0
-#         with:
-#           name: testpack-${{ github.event.inputs.version }}.zip
-#           path: /home/runner/work/_temp/packsquash/testpack-${{ github.event.inputs.version }}.zip
-#           if-no-files-found: error
+          path: 'test'
+#           artifact_name: s6pack
+#           zip_spec_conformance_level: disregard
+#           size_increasing_zip_obfuscation: true
 
-#       - name: Upload version
-#         uses: actions/upload-artifact@v3.1.0
-#         with:
-#           name: version.txt
-#           path: /home/runner/work/_temp/packsquash/version.txt
-#           if-no-files-found: error
+        
+      # Rename artifact
+      # With given version
+      - if: ${{ github.event.inputs.version != '' }}
+        name: Rename artifact (with given version)
+        run: mv /home/runner/work/_temp/packsquash/pack.zip s6pack-${{ github.event.inputs.version }}.zip
+
+      # With PR version
+      - if: ${{ github.event.inputs.version == '' }}
+        name: Rename artifact (with PR name as version)
+        run: mv /home/runner/work/_temp/packsquash/pack.zip s6pack-${{ github.event.pull_request.title }}.zip
+
+
+      # Add version to version.txt
+      # With given version
+      - if: ${{ github.event.inputs.version != '' }}
+        name: Add version to version file (with given version)
+        run: echo "${{ github.event.inputs.version }}" > version.txt
+        
+      # With PR version
+      - if: ${{ github.event.inputs.version == '' }}
+        name: Add version to version file (with PR name as version)
+        run: echo "${{ github.event.pull_request.title }}" > version.txt
+
+      
+      # Upload artifact
+      # With given version
+      - if: ${{ github.event.inputs.version != '' }}
+        name: Upload artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: s6pack-${{ github.event.inputs.version }}.zip
+          path: s6pack-${{ github.event.inputs.version }}.zip
+          if-no-files-found: error
+      
+      # With PR version
+      - if: ${{ github.event.inputs.version == '' }}
+        name: Upload artifact
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: s6pack-${{ github.event.inputs.version }}.zip
+          path: s6pack-${{ github.event.inputs.version }}.zip
+          if-no-files-found: error
+      
+
+      # Upload version
+      - name: Upload version
+        uses: actions/upload-artifact@v3.1.0
+        with:
+          name: version.txt
+          path: version.txt
+          if-no-files-found: error
+
+      # Release artifacts
+      # With given version
+      - if: ${{ github.event.inputs.version != '' }}
+        name: Release artifact (with given version)
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "s6pack-${{ github.event.inputs.version }}.zip, version.txt"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.event.inputs.version }}
+
+      # With PR version
+      - if: ${{ github.event.inputs.version == '' }}
+        name: Release artifact (with PR name as version)
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "s6pack-${{ github.event.pull_request.title }}.zip, version.txt"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.event.pull_request.title }}
           
+      
